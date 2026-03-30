@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- ============================================================
+       META TAGS - SEO Y CONFIGURACIÓN BÁSICA
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO Principal -->
+  <title>Lic. Rodrigo Bombieri | Higiene y Seguridad Laboral</title>
+  <meta name="description"
+    content="Servicios profesionales de Higiene y Seguridad Laboral: auditorías, capacitaciones, planes de emergencia y mediciones ambientales. Cumplimiento normativo garantizado para su empresa." />
+  <meta name="keywords"
+    content="higiene y seguridad laboral, auditorías de seguridad, capacitaciones laborales, ART, SRT, IRAM, plan de emergencia, mediciones ambientales, riesgos laborales, Argentina" />
+  <meta name="author" content="Rodrigo Bombieri" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.hysbombieri.com.ar/" />
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.hysbombieri.com.ar/" />
+  <meta property="og:title" content="SafeWork HSL | Higiene y Seguridad Laboral" />
+  <meta property="og:description"
+    content="Soluciones integrales en Higiene y Seguridad Laboral para empresas, industrias y comercios." />
+  <meta property="og:image" content="https://www.hysbombieri.com.ar/og-image.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rodrigo Bombieri | Higiene y Seguridad Laboral" />
+  <meta name="twitter:description"
+    content="Servicios profesionales de Higiene y Seguridad Laboral para su empresa." />
+
+  <!-- Datos Estructurados JSON-LD (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Rodrigo Bombieri - Higiene y Seguridad Laboral",
+    "description": "Servicios profesionales de Higiene y Seguridad Laboral",
+    "url": "https://www.hysbombieri.com.ar",
+    "telephone": "+54-11-5555-0000",
+    "email": "rodrigobombierihys@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Entre Rios",
+      "addressCountry": "AR"
+    },
+    "serviceType": ["Auditorías de Seguridad", "Capacitaciones", "Planes de Emergencia", "Mediciones Ambientales"]
+  }
+  </script>
+
+  <!-- Fuentes Google: Playfair Display (display) + DM Sans (cuerpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Hoja de estilos externa -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVBAR
+       ============================================================ -->
+  <header class="navbar" role="banner">
+    <div class="navbar__container">
+
+      <!-- Logo -->
+      <a href="#inicio" class="navbar__logo" aria-label="Lic. Rodrigo Bombieri - Inicio">
+        <span class="navbar__logo-icon" aria-hidden="true">
+          <!-- Ícono SVG: escudo de seguridad -->
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <path d="M18 2L4 8v10c0 8.284 5.93 16.02 14 18 8.07-1.98 14-9.716 14-18V8L18 2z" fill="#1B3A6B"
+              stroke="#2A5BAD" stroke-width="1.5" />
+            <path d="M12 18l4 4 8-8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </span>
+        <span class="navbar__logo-text">
+          Lic. Rodrigo  <strong>Bombieri</strong>
+          <em>Higiene y Seguridad Laboral</em>
+        </span>
+      </a>
+
+      <!-- Checkbox para el menú hamburguesa (CSS-only) -->
+      <input type="checkbox" id="nav-toggle" class="navbar__toggle-input" aria-hidden="true" />
+      <label for="nav-toggle" class="navbar__hamburger" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Menú de navegación -->
+      <nav class="navbar__menu" role="navigation" aria-label="Menú principal">
+        <ul class="navbar__list">
+          <li><a href="#inicio" class="navbar__link">Inicio</a></li>
+          <li><a href="#servicios" class="navbar__link">Servicios</a></li>
+          <li><a href="#nosotros" class="navbar__link">Sobre Mí </a></li>
+          <li><a href="#beneficios" class="navbar__link">Beneficios</a></li>
+          <li><a href="#contacto" class="navbar__link navbar__link--cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       SECCIÓN HERO
+       ============================================================ -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+
+    <!-- Patrón geométrico de fondo decorativo -->
+    <div class="hero__bg-pattern" aria-hidden="true"></div>
+
+    <div class="hero__container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Higiene &amp; Seguridad Laboral</p>
+        <h1 class="hero__title" id="hero-title">
+          Protegemos a su<br />
+          <span class="hero__title--accent">equipo humano.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Soluciones integrales en seguridad laboral para empresas, industrias y
+          comercios. Cumplimiento normativo, reducción de riesgos y ambientes de
+          trabajo más seguros.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Solicitar asesoramiento</a>
+          <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta estadística flotante -->
+      <div class="hero__stats" aria-label="Estadísticas">
+        <div class="stat-card">
+          <span class="stat-card__number">+1500</span>
+          <span class="stat-card__label">Establecimientos evaluados</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number">10+</span>
+          <span class="stat-card__label">Años de experiencia</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number">100%</span>
+          <span class="stat-card__label">Cumplimiento legal</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card__number">Sector Público</span>
+            <span class="stat-card__label">Experiencia en organismos públicos</span>
+            </div>
+      </div>
+    </div>
+
+    <!-- Divisor diagonal -->
+    <div class="hero__diagonal" aria-hidden="true"></div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN SERVICIOS
+       ============================================================ -->
+  <section class="services" id="servicios" aria-labelledby="services-title">
+    <div class="services__container">
+
+      <!-- Encabezado de sección -->
+      <div class="section-header">
+        <span class="section-header__tag">Lo que ofrecemos</span>
+        <h2 class="section-header__title" id="services-title">Nuestros Servicios</h2>
+        <p class="section-header__subtitle">
+          Cobertura completa en materia de higiene y seguridad, adaptada a las
+          necesidades reales de su organización.
+        </p>
+      </div>
+
+      <!-- Grilla de tarjetas de servicios -->
+      <div class="services__grid" role="list">
+
+        <!-- Servicio 1: Auditorías -->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="18" height="24" rx="2" stroke="#2A5BAD" stroke-width="1.8" />
+              <path d="M8 9h10M8 13h10M8 17h6" stroke="#2A5BAD" stroke-width="1.8" stroke-linecap="round" />
+              <circle cx="24" cy="24" r="6" fill="#EEF3FB" stroke="#2A5BAD" stroke-width="1.5" />
+              <path d="M21.5 24l1.5 1.5 3-3" stroke="#2A5BAD" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Auditorías de Seguridad</h3>
+          <p class="service-card__desc">
+            Evaluación exhaustiva de las condiciones de trabajo, identificación de
+            riesgos y elaboración de informes técnicos conforme a la normativa
+            vigente (SRT, IRAM, OHSAS).
+          </p>
+          <span class="service-card__tag">Normativa SRT</span>
+        </article>
+
+        <!-- Servicio 2: Capacitaciones -->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 10l12-6 12 6-12 6-12-6z" stroke="#2A5BAD" stroke-width="1.8" stroke-linejoin="round" />
+              <path d="M8 13v7c0 2 3.582 4 8 4s8-2 8-4v-7" stroke="#2A5BAD" stroke-width="1.8"
+                stroke-linecap="round" />
+              <path d="M28 10v8" stroke="#2A5BAD" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Capacitaciones al Personal</h3>
+          <p class="service-card__desc">
+            Programas de formación en prevención de accidentes, uso de EPP,
+            actuación ante emergencias y cultura de seguridad. Presenciales y
+            virtuales, con certificación.
+          </p>
+          <span class="service-card__tag">In-company</span>
+        </article>
+
+        <!-- Servicio 3: Planes de Emergencia -->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16 3L3 28h26L16 3z"
+                stroke="#2A5BAD" stroke-width="1.8" stroke-linejoin="round" />
+              <path d="M16 13v6M16 22v2" stroke="#2A5BAD" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Planes de Emergencia</h3>
+          <p class="service-card__desc">
+            Diseño y implementación de planes de evacuación, simulacros y brigadas
+            de emergencia. Señalización reglamentaria y mapas de riesgo
+            actualizados.
+          </p>
+          <span class="service-card__tag">Decreto 351/79</span>
+        </article>
+
+        <!-- Servicio 4: Mediciones Ambientales -->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="12" stroke="#2A5BAD" stroke-width="1.8" />
+              <path d="M16 8v4M16 20v4M8 16h4M20 16h4" stroke="#2A5BAD" stroke-width="1.8"
+                stroke-linecap="round" />
+              <circle cx="16" cy="16" r="3" fill="#2A5BAD" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Mediciones Laborales</h3>
+          <p class="service-card__desc">
+            Medición de ruido, iluminación, temperatura, agentes químicos y
+            ergonomía. Informes técnicos con recomendaciones correctivas y
+            seguimiento de mejoras.
+          </p>
+          <span class="service-card__tag">Laboratorio certificado</span>
+        </article>
+
+        <!-- Servicio 5: Documentación y Legajos -->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 4h14l6 6v18H6V4z" stroke="#2A5BAD" stroke-width="1.8" stroke-linejoin="round" />
+              <path d="M20 4v6h6" stroke="#2A5BAD" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M10 14h12M10 18h12M10 22h8" stroke="#2A5BAD" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Documentación Técnica</h3>
+          <p class="service-card__desc">
+            Elaboración y actualización de legajos técnicos, programas anuales de
+            seguridad, registros de EPP, declaraciones juradas y toda la
+            documentación exigida por la ART y la SRT.
+          </p>
+          <span class="service-card__tag">ART / SRT</span>
+        </article>
+        <!-- Servicio 6: Protección contra incendios-->
+        <article class="service-card" role="listitem">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path 
+                d="M12 3C12 3 7 8 7 12a5 5 0 0010 0c0-4-5-9-5-9z" 
+                stroke="#2A5BAD" 
+                stroke-width="1.8" 
+                stroke-linecap="round" 
+                stroke-linejoin="round"
+                />
+                <path 
+                d="M12 14c-1.5 0-2-1-2-2 0-1.5 2-3 2-3s2 1.5 2 3c0 1-0.5 2-2 2z" 
+                stroke="#2A5BAD" 
+                stroke-width="1.5" 
+                stroke-linecap="round" 
+                stroke-linejoin="round"
+                />
+            </svg>
+          </div>
+          <h3 class="service-card__title">Protección contra Incendios</h3>
+          <p class="service-card__desc">
+            Informes de Carga de Fuego, Cálculos de Factor de Ocupación y 
+            Anchos mínimos de Salidas de Emergencias, Control de extintores.
+          </p>
+          <span class="service-card__tag">Normativa vigente</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN NOSOTROS
+       ============================================================ -->
+  <section class="about" id="nosotros" aria-labelledby="about-title">
+    <div class="about__container">
+
+      <!-- Columna visual -->
+      <div class="about__visual" aria-hidden="true">
+        <div class="about__visual-block about__visual-block--main">
+          <div class="about__visual-line"></div>
+          <p class="about__visual-quote">
+            "La seguridad no es un gasto,<br />es una inversión."
+          </p>
+        </div>
+        <div class="about__visual-block about__visual-block--accent">
+          <span >Lic. en Higiene y Seguridad del Trabajo</span>
+        </div>
+        <div class="about__visual-block about__visual-block--accent">
+          <span> Matrículado en el Colegio de Profesionales: MP L0130</span>
+        </div>
+        <div class="about__badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6L12 2z" fill="#FFFFFF" />
+          </svg>
+          <span>Matrícula habilitante</span>
+        </div>
+      </div>
+
+      <!-- Columna de texto -->
+      <div class="about__content">
+        <span class="section-header__tag">Sobre Mí</span>
+        <h2 class="section-header__title" id="about-title">
+          Experiencia que<br />genera confianza
+        </h2>
+        <p class="about__text">
+          Soy Rodrigo Bombieri, Licenciado en Higiene y Seguridad laboral, especializado en Higiene y Seguridad
+          del Trabajo, con más de <strong>10 años de trayectoria</strong> brindando
+          servicios  tanto en el sector público como en el ejercicio independiente de la profesión.
+        </p>
+        <p class="about__text">
+          Mi enfoque combina el rigor técnico exigido por la normativa argentina
+          con una atención personalizada, comprendiendo que cada organización tiene
+          necesidades y realidades propias. Trabajo como parte de su equipo,
+          no como un proveedor externo.
+        </p>
+
+        <!-- Credenciales -->
+        <ul class="about__credentials" aria-label="Credenciales profesionales">
+          <li class="about__credential">
+            <span class="about__credential-dot" aria-hidden="true"></span>
+            Registro en Superintendencia de Riesgos del Trabajo (SRT)
+          </li>
+          <li class="about__credential">
+            <span class="about__credential-dot" aria-hidden="true"></span>
+            Matrícula profesional habilitante vigente
+          </li>
+          <li class="about__credential">
+            <span class="about__credential-dot" aria-hidden="true"></span>
+            Formación continua en normativas IRAM e ISO 45001
+          </li>
+          <li class="about__credential">
+            <span class="about__credential-dot" aria-hidden="true"></span>
+            Experiencia en industria, construcción y servicios
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN BENEFICIOS
+       ============================================================ -->
+  <section class="benefits" id="beneficios" aria-labelledby="benefits-title">
+    <div class="benefits__container">
+
+      <div class="section-header section-header--light">
+        <span class="section-header__tag section-header__tag--light">¿Por qué elegirme?</span>
+        <h2 class="section-header__title section-header__title--light" id="benefits-title">
+          Beneficios concretos<br />para su empresa
+        </h2>
+      </div>
+
+      <div class="benefits__grid" role="list">
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2L4 7v9c0 6 4.3 11.6 10 13 5.7-1.4 10-7 10-13V7L14 2z" stroke="#FFFFFF"
+                stroke-width="1.8" fill="rgba(255,255,255,0.1)" />
+              <path d="M9 14l3.5 3.5L19 10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Cumplimiento normativo</h3>
+            <p class="benefit-item__desc">
+              Evite sanciones y multas. Su empresa cumplirá con la Ley 19.587,
+              el Decreto 351/79 y las resoluciones de la SRT.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="14" cy="14" r="11" stroke="#FFFFFF" stroke-width="1.8" fill="rgba(255,255,255,0.1)" />
+              <path d="M9 14l3 3 7-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Reducción de accidentes</h3>
+            <p class="benefit-item__desc">
+              Identifique y controle los riesgos antes de que se conviertan en
+              incidentes. Proteja la integridad de su personal.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="6" width="22" height="16" rx="2" stroke="#FFFFFF" stroke-width="1.8"
+                fill="rgba(255,255,255,0.1)" />
+              <path d="M3 11h22M9 6v5M19 6v5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Gestión documentada</h3>
+            <p class="benefit-item__desc">
+              Legajos técnicos ordenados y actualizados, listos para inspecciones
+              de la SRT o auditorías de su ART.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="6" stroke="#FFFFFF" stroke-width="1.8" fill="rgba(255,255,255,0.1)" />
+              <circle cx="20" cy="18" r="5" stroke="#FFFFFF" stroke-width="1.8" fill="rgba(255,255,255,0.1)" />
+              <path d="M14 10h6M20 6v4" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Atención personalizada</h3>
+            <p class="benefit-item__desc">
+              No somos una consultora masiva. Cada cliente recibe un servicio a
+              medida, con seguimiento continuo y respuesta ágil.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 3v10l6 3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <circle cx="14" cy="14" r="11" stroke="#FFFFFF" stroke-width="1.8" fill="rgba(255,255,255,0.1)" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Ahorro de tiempo</h3>
+            <p class="benefit-item__desc">
+              Delegue la gestión de seguridad en expertos. Focalícese en su
+              negocio mientras nosotros mantenemos su empresa en regla.
+            </p>
+          </div>
+        </div>
+
+        <div class="benefit-item" role="listitem">
+          <div class="benefit-item__icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 20l6-6 5 5 9-11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="benefit-item__content">
+            <h3 class="benefit-item__title">Mejora continua</h3>
+            <p class="benefit-item__desc">
+              Implementamos sistemas de gestión alineados con ISO 45001 para
+              que la seguridad sea un proceso de mejora sostenida.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECCIÓN CONTACTO
+       ============================================================ -->
+  <section class="contact" id="contacto" aria-labelledby="contact-title">
+    <div class="contact__container">
+
+      <!-- Información de contacto -->
+      <div class="contact__info">
+        <span class="section-header__tag">Hablemos</span>
+        <h2 class="section-header__title" id="contact-title">
+          Solicite su<br />asesoramiento
+        </h2>
+        <p class="contact__info-text">
+          Cuéntenos sobre su empresa y las necesidades en materia de seguridad.
+          Le responderemos dentro de las <strong>24 horas hábiles</strong>.
+        </p>
+
+        <!-- Datos de contacto -->
+        <address class="contact__details">
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V21c0 .6-.4 1-1 1C11 22 2 13 2 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"
+                  stroke="#2A5BAD" stroke-width="1.8" fill="none" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Teléfono</span>
+              <a href="https://wa.me/549344615523423" class="contact__detail-value">03446-15523423</a>
+            </div>
+          </div>
+
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="4" width="20" height="16" rx="2" stroke="#2A5BAD" stroke-width="1.8" />
+                <path d="M2 8l10 6 10-6" stroke="#2A5BAD" stroke-width="1.8" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Email</span>
+              <a href="mailto:rodrigobombierihys@gmail.com"
+                class="contact__detail-value">rodrigobombierihys@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact__detail-item">
+            <div class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 13a3 3 0 100-6 3 3 0 000 6z" stroke="#2A5BAD" stroke-width="1.8" />
+                <path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7z" stroke="#2A5BAD"
+                  stroke-width="1.8" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact__detail-label">Ubicación</span>
+              <span class="contact__detail-value">Urdinarrain, Entre Ríos, Argentina</span>
+            </div>
+          </div>
+        </address>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <div class="contact__form-wrapper">
+ 
+        <!-- Mensaje de éxito (oculto por defecto) -->
+        <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+          <div class="form-success__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="#EEF3FB"/>
+              <path d="M12 20l6 6 10-12" stroke="#2A5BAD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="form-success__title">¡Mensaje enviado!</h3>
+          <p class="form-success__text">Le responderemos dentro de las 24 horas hábiles. También puede contactarnos por WhatsApp.</p>
+          <a id="whatsapp-success-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp btn--block">
+            <!-- Ícono WhatsApp -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Continuar por WhatsApp
+          </a>
+          <button class="form-success__reset" id="form-reset" type="button">Enviar otro mensaje</button>
+        </div>
+ 
+        <!-- Formulario principal -->
+        <form class="contact-form" id="contact-form" aria-label="Formulario de contacto">
+ 
+          <div class="contact-form__group">
+            <label for="nombre" class="contact-form__label">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" class="contact-form__input"
+              placeholder="Ej: Juan Pérez" required autocomplete="name" />
+          </div>
+ 
+          <div class="contact-form__group">
+            <label for="empresa" class="contact-form__label">Empresa / Organización</label>
+            <input type="text" id="empresa" name="empresa" class="contact-form__input"
+              placeholder="Nombre de su empresa" autocomplete="organization" />
+          </div>
+ 
+          <div class="contact-form__group">
+            <label for="email" class="contact-form__label">Correo electrónico *</label>
+            <input type="email" id="email" name="email" class="contact-form__input"
+              placeholder="correo@empresa.com" required autocomplete="email" />
+          </div>
+ 
+          <div class="contact-form__group">
+            <label for="telefono" class="contact-form__label">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" class="contact-form__input"
+              placeholder="+54 11 XXXX-XXXX" autocomplete="tel" />
+          </div>
+ 
+          <div class="contact-form__group contact-form__group--full">
+            <label for="mensaje" class="contact-form__label">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" class="contact-form__textarea" rows="5"
+              placeholder="Cuéntenos sobre su empresa, cantidad de empleados y qué servicio necesita..."
+              required></textarea>
+          </div>
+ 
+          <!-- Mensaje de error -->
+          <div class="contact-form__group contact-form__group--full">
+            <p class="form-error" id="form-error" hidden role="alert">
+              Hubo un error al enviar el mensaje. Por favor, intente nuevamente o contáctenos por WhatsApp.
+            </p>
+          </div>
+ 
+          <!-- Botones de envío -->
+          <div class="contact-form__group contact-form__group--full contact-form__buttons">
+            <button type="submit" id="btn-submit" class="btn btn--primary btn--block">
+              <span class="btn-label">Enviar consulta por email</span>
+              <span class="btn-loading" hidden>Enviando...</span>
+            </button>
+            <a id="whatsapp-direct-link" href="#" target="_blank" rel="noopener noreferrer"
+              class="btn btn--whatsapp btn--block">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Contactar por WhatsApp
+            </a>
+          </div>
+ 
+          <p class="contact-form__disclaimer">
+            * Campos requeridos. Sus datos son confidenciales y no serán
+            compartidos con terceros.
+          </p>
+        </form>
+      </div>
+ 
+      <!-- ============================================================
+           SCRIPT: Formspree + WhatsApp
+           ============================================================ -->
+      <script>
+        (function () {
+          /* ── Configuración ── */
+          var FORMSPREE_URL = 'https://formspree.io/f/xpqodaaq';
+          var WA_NUMBER    = '549344615523423'; /* número sin + ni espacios */
+ 
+          /* ── Referencias al DOM ── */
+          var form          = document.getElementById('contact-form');
+          var successBox    = document.getElementById('form-success');
+          var errorMsg      = document.getElementById('form-error');
+          var btnSubmit     = document.getElementById('btn-submit');
+          var btnLabel      = btnSubmit.querySelector('.btn-label');
+          var btnLoading    = btnSubmit.querySelector('.btn-loading');
+          var waDirectLink  = document.getElementById('whatsapp-direct-link');
+          var waSuccessLink = document.getElementById('whatsapp-success-link');
+          var resetBtn      = document.getElementById('form-reset');
+ 
+          /* ── Genera la URL de WhatsApp con los datos del form ── */
+          function buildWhatsAppURL() {
+            var nombre  = (document.getElementById('nombre').value  || '').trim();
+            var empresa = (document.getElementById('empresa').value || '').trim();
+            var email   = (document.getElementById('email').value   || '').trim();
+            var tel     = (document.getElementById('telefono').value|| '').trim();
+            var mensaje = (document.getElementById('mensaje').value  || '').trim();
+ 
+            var text = '¡Hola! Me contacto desde su sitio web.\n\n';
+            if (nombre)  text += '👤 Nombre: '  + nombre  + '\n';
+            if (empresa) text += '🏢 Empresa: ' + empresa + '\n';
+            if (email)   text += '📧 Email: '   + email   + '\n';
+            if (tel)     text += '📞 Teléfono: '+ tel     + '\n';
+            if (mensaje) text += '\n💬 Mensaje:\n' + mensaje;
+ 
+            return 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(text);
+          }
+ 
+          /* ── Actualiza el botón directo de WhatsApp en tiempo real ── */
+          function updateDirectWALink() {
+            waDirectLink.href = buildWhatsAppURL();
+          }
+ 
+          ['nombre','empresa','email','telefono','mensaje'].forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) el.addEventListener('input', updateDirectWALink);
+          });
+          updateDirectWALink(); /* inicializar */
+ 
+          /* ── Envío del formulario ── */
+          form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+ 
+            /* Validación nativa del browser */
+            if (!form.checkValidity()) {
+              form.reportValidity();
+              return;
+            }
+ 
+            /* Estado: cargando */
+            btnSubmit.disabled = true;
+            btnLabel.hidden    = true;
+            btnLoading.hidden  = false;
+            errorMsg.hidden    = true;
+ 
+            /* Datos para Formspree */
+            var data = {
+              nombre:   document.getElementById('nombre').value.trim(),
+              empresa:  document.getElementById('empresa').value.trim(),
+              email:    document.getElementById('email').value.trim(),
+              telefono: document.getElementById('telefono').value.trim(),
+              mensaje:  document.getElementById('mensaje').value.trim()
+            };
+ 
+            try {
+              var response = await fetch(FORMSPREE_URL, {
+                method:  'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body:    JSON.stringify(data)
+              });
+ 
+              if (response.ok) {
+                /* Éxito: mostrar panel de éxito con link de WhatsApp */
+                var waURL = buildWhatsAppURL();
+                waSuccessLink.href = waURL;
+                form.hidden       = true;
+                successBox.hidden = false;
+                form.reset();
+                updateDirectWALink();
+              } else {
+                throw new Error('Respuesta no OK: ' + response.status);
+              }
+            } catch (err) {
+              /* Error: mostrar mensaje y rehabilitar botón */
+              errorMsg.hidden    = false;
+              btnSubmit.disabled = false;
+              btnLabel.hidden    = false;
+              btnLoading.hidden  = true;
+            }
+          });
+ 
+          /* ── Botón "Enviar otro mensaje" ── */
+          resetBtn.addEventListener('click', function () {
+            successBox.hidden = true;
+            form.hidden       = false;
+            btnSubmit.disabled = false;
+            btnLabel.hidden    = false;
+            btnLoading.hidden  = true;
+          });
+ 
+        })();
+      </script>
+ 
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__container">
+
+      <div class="footer__grid">
+
+        <!-- Columna: Logo y descripción -->
+        <div class="footer__col footer__col--brand">
+          <a href="#inicio" class="navbar__logo footer__logo" aria-label="SafeWork HSL">
+            <span class="navbar__logo-icon" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 2L4 8v10c0 8.284 5.93 16.02 14 18 8.07-1.98 14-9.716 14-18V8L18 2z" fill="#2A5BAD"
+                  stroke="#4A7FC1" stroke-width="1.5" />
+                <path d="M12 18l4 4 8-8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </span>
+            <span class="navbar__logo-text">Lic. Rodrigo <strong>Bombieri</strong> <em>Higiene y Seguridad Laboral</em></span>
+          </a>
+          <p class="footer__brand-text">
+            Higiene y Seguridad Laboral profesional para empresas que valoran
+            a su gente.
+          </p>
+        </div>
+
+        <!-- Columna: Servicios -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Servicios</h4>
+          <ul class="footer__list">
+            <li><a href="#servicios" class="footer__link">Auditorías de Seguridad</a></li>
+            <li><a href="#servicios" class="footer__link">Capacitaciones</a></li>
+            <li><a href="#servicios" class="footer__link">Planes de Emergencia</a></li>
+            <li><a href="#servicios" class="footer__link">Mediciones Ambientales</a></li>
+            <li><a href="#servicios" class="footer__link">Documentación Técnica</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna: Navegación -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Navegación</h4>
+          <ul class="footer__list">
+            <li><a href="#inicio" class="footer__link">Inicio</a></li>
+            <li><a href="#nosotros" class="footer__link">Sobre Mí</a></li>
+            <li><a href="#beneficios" class="footer__link">Beneficios</a></li>
+            <li><a href="#contacto" class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna: Contacto -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Contacto</h4>
+          <ul class="footer__list">
+            <li>
+              <a href="tel:+541155550000" class="footer__link">03446-15523423</a>
+            </li>
+            <li>
+              <a href="mailto:rodrigobombierihys@gmail.com"
+                class="footer__link">rodrigobombierihys@gmail.com</a>
+            </li>
+            <li class="footer__address">Urdinarrain, Entre Ríos, Argentina</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Barra inferior del footer -->
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="current-year">2026</span> Lic. Rodrigo Bombieri. Todos los derechos reservados.
+        </p>
+        <p class="footer__legal">
+          Reg. SRT &nbsp;|&nbsp; Matrícula habilitante vigente
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
